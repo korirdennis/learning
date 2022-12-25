@@ -47,15 +47,26 @@ showObjectValues(obj);
         // example
 
 
-        // For in is can be used to travers an object
+        // For in is can be used to travers an array
 
 
 
-        // using for in in an array
+        //   with Array the key(index) is always a tring and therefore 
+        // using it to traverese the array is dicouraged 
+        // since it can some items may not follow the order
 
+        // USING for of
 
-        var arr=["One","Two","Three","Four"];
+        // Examples
 
+        function showArrayValues(arr){
 
-        showObjectKeys(arr)
-        showObjectValues(arr);
+            for(var value of arr){
+                console.log(value)
+            }
+        }
+
+        var arr =["One","Two","Three","Four"];
+
+        console.log("The output of the ShowArrayValues using for of")
+        showArrayValues(arr);
