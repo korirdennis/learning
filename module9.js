@@ -47,3 +47,19 @@ function count100(){
 //console.log(`The sum is ${count100()}`); // expected output is "The sum is 4950"
 
 
+// loop through an arry using for loop
+
+var family =["Dennis","Sharon","Tiffany"];
+
+    for(i=0; i<=family.length;i++){
+
+        console.log(family[i]);
+    }
+
+
+    // Expected output
+    // Dennis
+    // Sharon
+    // Tiffany
+
+
